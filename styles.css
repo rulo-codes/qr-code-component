@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.attribution { font-size: 0.6875rem; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+    --spacing-lg: 40px;
+    --spacing-md: 24px;
+    --spacing-sm: 16px;
+}
+
+.font-regular{
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
+
+.font-bold{
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-slate-300);
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.card{
+    background-color: var(--color-white);
+    height: 499px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477);
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    text-align: center;
+    padding: 0px 16px;
+}
+
+.header{
+    width: 100%;
+    color: var(--color-slate-900);
+}
+
+.sub-header{
+    width: 100%;
+    color: var(--color-slate-500);
+}
+
+.qr-code{
+    border-radius: 10px;
+    overflow: clip;
+}
+
