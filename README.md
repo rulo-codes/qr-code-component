@@ -29,7 +29,7 @@ QR Code Component in Mobile
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/rulo-codes/qr-code-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://rulo-codes.github.io/qr-code-component/)
 
 ## My process
 
@@ -45,7 +45,6 @@ The setup is really simple and easy. This project is easy and a way to get start
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
